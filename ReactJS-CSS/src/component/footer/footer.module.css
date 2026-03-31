@@ -1,0 +1,28 @@
+.footer{
+    margin-top: 20px;
+    color: white;
+}
+.border{
+    margin-bottom: 20px;
+    /* width: 100%; */
+    border: 1px solid white;
+}
+.social li{
+    list-style: none;
+}
+.follow{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    color: white;
+}
+.social li img{
+    width: 100%;
+    height: 25%;
+    cursor: pointer;
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+}
