@@ -1,0 +1,37 @@
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 10px;
+    background-size: cover;
+    border-radius: 20px;
+}
+.content{
+    color: white;
+}
+.count{
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+    padding: 2px;
+    background-color: #fff;
+    color: #111;
+    cursor: pointer;
+}
+.count:hover{
+    background-color: rgb(52, 189, 112);
+    color: #fff;
+}
+.btn{
+    background-color: rgb(52, 189, 112);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(27, 89, 54);
+    color: #fff;
+}
