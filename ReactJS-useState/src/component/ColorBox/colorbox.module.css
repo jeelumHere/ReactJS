@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.box{
+    background-color: lightseagreen;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    width: 80%;
+    margin-top: 10vh;
+    box-sizing: border-box;
+}
+
+.button button{
+    padding: 10px 20px;
+    background-color: lightseagreen;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
