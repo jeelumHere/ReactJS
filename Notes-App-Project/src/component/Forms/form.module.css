@@ -1,0 +1,145 @@
+.addBtn {
+    background-color: #fff;
+    color: #111;
+    padding: 10px 30px;
+    cursor: pointer;
+    width: 100%;
+    transition-duration: 0.3s;
+    font-size: large;
+    font-weight: bold;
+}
+
+.addBtn:hover {
+    box-shadow: 0px 0px 10px -2px white;
+    transform: translateY(-1px);
+}
+
+.title {
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: large;
+    font-weight: bold;
+}
+
+.detail {
+    background: black;
+    color: white;
+    padding: 10px 30px;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.taskDisplay {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: column;
+    background-color: #fff;
+    color: #333;
+    padding: 10px;
+    width: 15%;
+    height: 200px;
+    border-radius: 16px;
+    margin-top: 5px;
+    overflow: auto;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDFQmlLFMLugpoMxJpACzllkOOfQhCe1gTcg&s');
+    object-fit: contain;
+}
+
+.task::-webkit-scrollbar {
+    overflow-x: hidden;
+}
+
+.heading {
+    margin-top: 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.taskDetail{
+    color: gray;
+}
+
+.deleteTask{
+    background-color: red;
+    color: white;
+    border-radius: 16px;
+    padding: 3px 6px;
+    border: none;
+    cursor: pointer;
+}
+.deleteTask:active{
+    background-color: rgb(101, 47, 47);
+}
+
+@media (max-width:650px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+
+    .task {
+        background-color: #fff;
+        color: #333;
+
+        width: 95px;
+        height: 150px;
+        border-radius: 16px;
+        margin-top: 0px;
+        font-size: 12px;
+
+    }
+
+    .heading {
+        font-size: 20px;
+        margin-top: 0px;
+        margin-left: 10px;
+    }
+    .form{
+        font-size: 16px;
+    }
+    .detail{
+        font-size: 10px;
+    }
+    .taskTitle{
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .taskDetail{
+        font-size: 10px;
+    }
+    .task::-webkit-scrollbar {
+    overflow-y: auto;
+}
+.taskSection {
+    border-left: 1px solid white;
+}
+.taskDisplay {
+    margin-left: 10px;
+}
+}
