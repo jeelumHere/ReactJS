@@ -1,0 +1,9 @@
+.submit{
+  background-color: lightblue;
+  color: black;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+input{
+  padding: 10px;
+}
