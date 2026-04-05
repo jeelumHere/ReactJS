@@ -1,0 +1,16 @@
+body{
+  background-color: #444;
+  color: #fff;
+  padding: 100px;
+  box-sizing: border-box;
+}
+.box{
+  padding: 10vh;
+  border: 2px solid white;
+  box-sizing: border-box;
+}
+h3{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
