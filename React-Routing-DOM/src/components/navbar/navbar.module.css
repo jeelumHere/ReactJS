@@ -1,0 +1,16 @@
+nav{
+    padding: 15px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(40, 70, 69);
+}
+
+nav div{
+    display: flex;
+    gap: 15px;
+    font-size: 20px;
+}
+nav div a {
+    text-decoration: none;
+}

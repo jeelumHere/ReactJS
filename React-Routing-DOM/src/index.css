@@ -1,0 +1,33 @@
+body{
+  background: black;
+  color: white;
+}
+*{
+  padding: 0;
+  margin: 0;
+  color: #fff;
+}
+.about{
+  height: 100vh;
+  background-color: lightseagreen;
+}
+.home{
+  height: 100vh;
+  background-color: rgb(73, 94, 108);
+}
+.contact{
+  height: 100vh;
+  background-color: aqua;
+}
+.product{
+  height: 100vh;
+  background-color: rgb(136, 72, 136);
+}
+
+h2{
+  font-size: 50px;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
+}
