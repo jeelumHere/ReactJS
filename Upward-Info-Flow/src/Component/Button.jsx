@@ -1,12 +1,16 @@
 import React from 'react'
+import { useState, } from 'react'
 
 const Button = (props) => {
+
+
+
 
     const ChangeTheme = ()=>{
         console.log('theme is changed..')
         props.theme === 'Dark' ? props.changeTheme('Light') : props.changeTheme('Dark')
-        props.theme === 'Dark' ? document.getElementById('div').classList.add('div') :
-         document.getElementById('div').classList.remove('div')
+        props.theme === 'Light' ? document.body.classList.add('div') :
+         document.body.classList.remove('div')
     }
 
   return (
