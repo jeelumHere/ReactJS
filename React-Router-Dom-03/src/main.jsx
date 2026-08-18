@@ -20,6 +20,7 @@ import GroupsLayout from './layout/GroupsLayout'
 import NotFound from './pages/NotFound'
 import Personal from './pages/Personal'
 import Layout from './pages/Layout'
+import SubjectLayout from './layout/SubjectLayout'
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route>
@@ -34,9 +35,11 @@ const router = createBrowserRouter(
         <Route index element={<Layout />} />
 
         <Route path=':section' element={<PersonalLayout />}>
-        <Route index element={<Personal/>}/>
+          <Route index element={<Personal />} />
+
           <Route path=':subject' element={<Subject />}>
-            <Route path='assignment' element={<Assighnment />}>
+            <Route index element={<SubjectLayout />}/>
+            <Route path='assighnment' element={<Assighnment />}>
               <Route path='images' element={<Images />} />
               <Route path='files' element={<Files />} />
             </Route>
