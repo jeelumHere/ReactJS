@@ -51,7 +51,7 @@ const router = createBrowserRouter(
               <Route path='images' element={<Images />} />
               <Route path='files' element={<Files />} />
             </Route>
-            <Route path='pastPapers' element={<PastPaper />}>
+            <Route path='pastPaper' element={<PastPaper />}>
               <Route path='images' element={<Images />} />
               <Route path='files' element={<Files />} />
             </Route>
